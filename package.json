@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.1",
+    "macy": "^2.5.1",
+    "masonry-layout": "^4.2.2"
+  }
+}
