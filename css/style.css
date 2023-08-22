@@ -52,7 +52,7 @@ nav {
 .hero {
     min-height:737px;
     background-color: var(--secondary);
-    white-space: nowrap;
+
     
 }
 .hero .text-label {
@@ -184,6 +184,7 @@ nav {
   color:var(--primary);
 }
 .button-cont .btn-outline-success {
+  
   width:249px; 
   --bs-btn-padding-y: 12px; 
   --bs-btn-padding-x: 22px; 
@@ -192,6 +193,15 @@ nav {
   border-radius:200px; 
   border-color: var(--green); 
   color:var(--green);
+}
+.expand-button {
+  --bs-btn-padding-y: 12px; 
+  --bs-btn-padding-x: 22px; 
+  --bs-btn-font-size: 1rem; 
+  font-family: 'Inter', sans-serif; 
+  border-radius:200px; 
+  border-color: var(--black); 
+  color:var(--black);
 }
 .about-us {
   min-height:720px;
@@ -239,7 +249,7 @@ nav {
   color:var(--primary-dark)
 }
 .realizations {
-  min-height: 1824px ;
+ height: auto ;
   background-color: var(--secondary);
 }
 
@@ -311,7 +321,7 @@ nav {
 }
 footer {
   background-color: var(--black);
-  height: 499px;
+  min-height: 499px;
 }
 footer p {
   font-size: 16px;
@@ -509,6 +519,14 @@ footer .nav-link  {
     background-color: var(--green);
 }
   }
+  @media (min-width: 375px) and (max-width: 977px) {
+    .expand-button {
+      display: none!important;
+    }
+    .realizations .container-fluid {
+      height: auto !important;
+    }
+  }
   @media (min-width: 375px) and (max-width: 575px) {
     .mob {
       padding-block:3rem;
@@ -534,18 +552,22 @@ footer .nav-link  {
     .instagram-ad .row {
       padding:0!important;
     }
-    .rest {
-      flex-direction: column;
-     
+    .rest p {
+      
+     margin-left: 0 !important;
     }
     footer .container {
       padding-top:0!important;
     }
     .n {
-      padding-bottom: 0 !important;
+      padding-bottom: 20px !important;
     }
-    .list-unstyled {
+ 
+    .adjust {
       flex-direction: column !important;
+    }
+    .footer-btn {
+      margin-left:0 !important;
     }
   }
   

@@ -31,13 +31,13 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">O firmie</a>
+          <a class="nav-link" aria-current="page" href="#onas">O firmie</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Realizacje</a>
+          <a class="nav-link" href="#realizacje">Realizacje</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Kontakt</a>
+          <a class="nav-link" href="#kontakt">Kontakt</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#">
@@ -103,7 +103,7 @@
           <div class="card-body card-pd-custom ">
             <img src="./imgs/pencil.svg" class="card-img-top" alt="...">
             <h5 class="card-title">Projekty</h5>
-            <p class="card-text text-break">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-break">Zaprojektujemy Twój ogród w nowoczesnym stylu i z najlepszym wykorzystaniem istniejącej przestrzeni.</p>
             <a href="#" class="card-link">Dowiedz się więcej</a>
           </div>
         </div>
@@ -114,7 +114,7 @@
           <div class="card-body card-pd-custom">
             <img src="./imgs/eye.svg" class="card-img-top" alt="...">
             <h5 class="card-title">Wizualizacje</h5>
-            <p class="card-text text-break">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-break">Przedstawimy Ci projekty koncepcyjne w postaci wirtualnego spaceru animowanego w technologii 3D.</p>
             <a href="#" class="card-link">Dowiedz się więcej</a>
           </div>
         </div>
@@ -124,7 +124,7 @@
           <div class="card-body card-pd-custom">
             <img src="./imgs/particles.svg" class="card-img-top" alt="...">
             <h5 class="card-title">Realizacje</h5>
-            <p class="card-text text-break text-left">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-break text-left">Zrealizujemy Twoje marzenie przy użyciu najnowszych rozwiązań i zaawansowanych technologii.</p>
             <a href="#" class="card-link">Dowiedz się więcej</a>
           </div>
         </div>
@@ -133,7 +133,7 @@
   </div>
 </section>
 
-<section class="about-us contains-wide-row overflow-hidden">
+<section id="onas" class="about-us contains-wide-row overflow-hidden">
   <div class="container w-100 h-100 wide-sc gx-sm-0 gx-xs-5 ">
     <div class="row g-sm-5 g-md-5 ">
       <div class="col-xxl-6 col-lg-6 col-md-12 col-sm-12 pb-md-5  pb-sm-5 pb-xs-5  r-sc overflow-hidden">
@@ -161,7 +161,7 @@
   </div>
 </section>
 
-<section class="realizations contains-wide-row overflow-hidden">
+<section id="realizacje" class="realizations contains-wide-row overflow-hidden">
   <div class="container w-100 h-100  gx-sm-0 gx-xs-5 ">
     <div class="row h-100  d-flex justify-content-center " style="padding-top:120px; padding-bottom:96px;">
       <div class="col-10 d-flex justify-content-between align-items-center">
@@ -177,26 +177,29 @@
       </div>
  
   </div>
-  <div class="container-fluid" >
+  <div class="container-fluid" style="height: 1475px;
+  overflow: hidden;">
     <div class="row">
       
       <div class="grid" >
-        <div class="grid-item"><img class="galleryImg" src="./zdjecia/Photo.png"/></div>
-        <div class="grid-item"><img class="galleryImg" src="./zdjecia/Photo-1.png"/></div>
-        <div class="grid-item"><img class="galleryImg" src="./zdjecia/Photo-2.png"/></div>
-        <div class="grid-item"><img class="galleryImg" src="./zdjecia/Photo-3.png"/></div>
-        <div class="grid-item"><img class="galleryImg" src="./zdjecia/Photo-4.png"/></div>
-        <div class="grid-item"><img class="galleryImg" src="./zdjecia/Photo-5.png"/></div>
-        <div class="grid-item"><img class="galleryImg" src="./zdjecia/Photo-6.png"/></div>
-        <div class="grid-item"><img class="galleryImg" src="./zdjecia/Photo-7.png"/></div>
         <div class="grid-item"><img class="galleryImg" src="./zdjecia/Photo-8.png"/></div>
-        
+        <div class="grid-item"><img class="galleryImg" src="./zdjecia/Photo-7.png"/></div>
+        <div class="grid-item"><img class="galleryImg" src="./zdjecia/Photo-6.png"/></div>
+        <div class="grid-item"><img class="galleryImg" src="./zdjecia/Photo-5.png"/></div>
+        <div class="grid-item"><img class="galleryImg" src="./zdjecia/Photo-4.png"/></div>
+        <div class="grid-item"><img class="galleryImg" src="./zdjecia/Photo-3.png"/></div>
+        <div class="grid-item"><img class="galleryImg" src="./zdjecia/Photo-2.png"/></div>
+        <div class="grid-item"><img class="galleryImg" src="./zdjecia/Photo-1.png"/></div>
+        <div class="grid-item"><img class="galleryImg" src="./zdjecia/Photo-9.png"/></div>
       </div> 
       
     </div>
     
+ 
     </div>
-    <button id="showMore">Rozwiń</button>
+    <div class="text-center">
+      <button id="showMore" type="button" class="btn btn-outline-success expand-button">Rozwiń</button>
+    </div>
 </section>
 <section class="instagram-ad">
   <div class="container h-100 ">
@@ -216,27 +219,27 @@
       </div>
   </div>
 </section>
-<footer>
+<footer id="kontakt">
   <div class="container pt-5">
     <div class="row d-flex justify-content-center align-items-center">
-      <div class="col-xxl-10 col-lg-10 col-md-12 col-sm-5 col">
-      <div class="d-flex flex-wrap justify-content-between align-items-center py-4 ">
+      <div class="col-10">
+      <div class="d-flex col-12 flex-wrap justify-content-between align-items-center py-4 adjust">
         <a class="navbar-brand" href="#">
           <img src="./imgs/giarddesign-wht.svg" alt="brand-logo">
       </a>
-      <div class="nav col-xxl-10 col-lg-10 col-md-10 col-sm-2 col justify-content-end list-unstyled d-flex align-items-center">
-        <p class="col-sm-2 text-break">Daj znać co możemy dla ciebie zrobić!</p>
+      <div class="nav col-9 justify-content-end list-unstyled d-flex align-items-center">
+        <p class="">Daj znać co możemy dla ciebie zrobić!</p>
         <button class="btn btn-success footer-btn">Skontaktuj się z nami</button>
       </div>
       </div>
       <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top " >
-        <ul class="nav col-xxl-5 col-lg-5 col-md-5 col-sm-7 col justify-content-start">
+        <ul class="nav col-xxl-5 col-lg-5 col-md-5 col-sm-6 col justify-content-start">
           <li class="nav-item"><a class="nav-link p-0 ">Kontakt</a></li>
           <li class="nav-item"><a class="nav-link p-0 ">Facebook</a></li>
           <li class="nav-item"><a class="nav-link p-0 ">Instagram</a></li>
           <li class="nav-item"><a class="nav-link p-0 ">Linkedin</a></li>
         </ul>
-        <div class="nav rest col-xxl-5 col-lg-5 col-md-5 col-sm-5 col justify-content-end list-unstyled d-flex align-items-center" >
+        <div class="nav rest col-xxl-5 col-lg-5 col-md-5 col-sm-6 col justify-content-end list-unstyled d-flex align-items-center" >
           <p class="text-break">000-000-000</p>
           <p class="text-break"style=" margin-left:48px;">giarddesign@kontakt.pl</p>
         </div>
